@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://localhost:3306</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <mapping class="entities.AdressEntity"/>
+        <mapping class="entities.BucketEntity"/>
+        <mapping class="entities.CameraEntity"/>
+        <mapping class="entities.CityEntity"/>
+        <mapping class="entities.ClientEntity"/>
+        <mapping class="entities.CountryEntity"/>
+        <mapping class="entities.DeliveryStatusEntity"/>
+        <mapping class="entities.OrderEntity"/>
+        <mapping class="entities.PayStatusEntity"/>
+        <mapping class="entities.PayWayEntity"/>
+        <mapping class="entities.RegionEntity"/>
+        <mapping class="entities.ThingEntity"/>
+        <mapping class="entities.TranslationEntity"/>
+
+
+        <!-- <property name="connection.username"/> -->
+        <!-- <property name="connection.password"/> -->
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>
