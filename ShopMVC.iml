@@ -24,7 +24,7 @@
           <unit-entry name="hibernate.cfg.xml" value="15d2d2bb-cab5-4b95-82c3-3d02566469d7" />
         </datasource-map>
         <naming-strategy-map />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/java/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/com.tsystems.javaschool/hibernate.cfg.xml" />
       </configuration>
     </facet>
     <facet type="jpa" name="JPA">
@@ -34,15 +34,15 @@
         <datasource-mapping>
           <factory-entry name="NewPersistenceUnit" value="15d2d2bb-cab5-4b95-82c3-3d02566469d7" />
         </datasource-mapping>
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/java/META-INF/persistence.xml" />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/com.tsystems.javaschool/META-INF/persistence.xml" />
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/com.tsystems.javaschool" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
@@ -59,6 +59,10 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.1.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-test:4.3.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.1.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-orm:4.1.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:4.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.34" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.0.1.Final" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
@@ -74,5 +78,7 @@
     <orderEntry type="library" name="Maven: jstl:jstl:1.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet.jsp:jsp-api:2.1" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
   </component>
 </module>

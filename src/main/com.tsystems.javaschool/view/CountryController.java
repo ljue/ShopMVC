@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import svc.CountryService;
 import svc.Impl.CountryServiceImpl;
 
 import javax.servlet.ServletException;
@@ -18,6 +19,7 @@ import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Random;
+import java.util.logging.Logger;
 
 /**
  * Created by Людмила on 14.07.2017.
@@ -27,11 +29,17 @@ import java.util.Random;
 public class CountryController {
 
     @Autowired
-    private CountryServiceImpl countryService;
+    private CountryService countryService;
+
+    private static org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CountryController.class);
+    //private static Logger log = Logger.getLogger(CountryController.class.getName());
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String listUsers(@RequestParam("countries") String param, Model model) throws SQLException {
         model.addAttribute("countries",param);
+        System.out.println("Привет!");
+        System.err.println("WTF?!");
+        log.info("hiadfasfasfasfasfasf");
         List<CountryEntity> countryEntity = countryService.getAllCountries();
         String res="";
         for (CountryEntity ce:countryEntity) {

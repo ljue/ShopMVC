@@ -31,6 +31,13 @@
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
         </element>
       </element>
     </root>
